@@ -1,0 +1,911 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": true,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "percent_off",
+            "show_product_rating": false,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
+        "f4122dd4-6ce0-4a92-a1db-c1d9224ce6fe": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>Let the wholesomeness of Kojic & Milk gently peel away that tan!<\/p>",
+            "column_placement": "right"
+          }
+        },
+        "237517eb-9c2f-4d88-8e86-a0f3d356fe5e": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><strong>Significantly lightens tan<\/strong>: specially formulated for sun-tanned skin, the kojic in this cream works to gradually lighten the tan, giving you a fresher, more even-toned complexion. {{ shop.brand.short_description }}<\/p>",
+            "column_placement": "right"
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "moving-truck",
+            "text_1": "Fast Shipping",
+            "icon_2": "padlock",
+            "text_2": "Secure payment",
+            "icon_3": "chat",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_icon": "measuring-tape",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "medium",
+            "siblings_show_product_image": true,
+            "siblings_option_name": "Color",
+            "chip_layout": "3col"
+          }
+        },
+        "inventory_counter": {
+          "type": "inventory-counter",
+          "disabled": true,
+          "settings": {
+            "label": "Availability",
+            "inventory_max": "100",
+            "low_inventory_threshold": "40",
+            "show_status_bar": true,
+            "show_untracked_quantity": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "product_callouts-1": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "leaf",
+            "text_1": "<p>Your order ships carbon neutral<\/p>",
+            "icon_2": "none",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "product_callouts-2": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "none",
+            "text_1": "<p><strong>Suitable for: <\/strong><\/p><ul><li>All skin types. <\/li><li>Most effective on sensitive skin & dry skin <\/li><li>Nourishing properties.<\/li><\/ul>",
+            "icon_2": "washing-symbol",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_text": ""
+          }
+        },
+        "1bb7dd32-7320-4fb6-bd8d-27ecd82501dd": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "Key Benefits",
+            "content": "{{ product.metafields.custom.key_benefits | metafield_tag }}",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "3d4837fb-caea-4a42-ab62-456347c24e47": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "How to Use",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "title": "Know More",
+            "text_font_class": "fs-body-100",
+            "column_placement": "left",
+            "display_as_collapsible_row": true,
+            "expand_by_default": false
+          }
+        },
+        "accordion-1": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "Key Benefits",
+            "content": "<p><strong>Kojic<\/strong>: this natural skin lightening agent works to gently undo tan and other forms of sun damage to the skin, by slowing down the production of melanin, the substance that causes skin darkening.<br\/>                          <br\/><strong>Milk<\/strong>: the nourishing properties of milk, soften and soothe, working well in combination with kojic, to reveal brighter, healthier skin.      <\/p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion-2": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "How to Use",
+            "content": "<p><strong>Boosts cell regeneration<\/strong>: this cream encourages the skin's outermost layer to continuously repair and replace itself, for long-lasting radiance.<br\/><br\/><strong>Gently removes dead skin cells<\/strong>: enriched with the purifying properties of kojic, this cream removes dead skin cells, promoting a healthy glow.<br\/><br\/><strong>Enhances skin hydration<\/strong>: the nourishing properties of milk boost skin's moisture levels and replenish lost moisture, for soft and supple skin.<\/p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion-3": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "Collapsible row",
+            "content": "<p>Add your collapsible row content here.<\/p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>Add some text to tell customers more about your product.<\/p>",
+            "column_placement": "left"
+          }
+        },
+        "9de4af6a-f032-4b08-8854-f1a886887607": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "Collapsible row",
+            "content": "<p>Add your collapsible row content here.<\/p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_header",
+        "f4122dd4-6ce0-4a92-a1db-c1d9224ce6fe",
+        "237517eb-9c2f-4d88-8e86-a0f3d356fe5e",
+        "product_callouts_mini",
+        "variant_picker",
+        "inventory_counter",
+        "quantity_selector",
+        "buy_buttons",
+        "product_callouts-1",
+        "product_callouts-2",
+        "share",
+        "1bb7dd32-7320-4fb6-bd8d-27ecd82501dd",
+        "3d4837fb-caea-4a42-ab62-456347c24e47",
+        "description",
+        "accordion-1",
+        "accordion-2",
+        "accordion-3",
+        "text",
+        "9de4af6a-f032-4b08-8854-f1a886887607"
+      ],
+      "custom_css": [
+        ".product__policies {display: none;}"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": true,
+        "show_navigation_buttons": true,
+        "gallery_style": "thumbnails",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "3",
+        "enable_video_looping": true,
+        "enable_product_lightbox": true,
+        "image_aspect_ratio": "square",
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "6534dcda-6427-40cd-bdad-426b4a15ce27": {
+      "type": "main-product-metafield-icon",
+      "settings": {
+        "heading": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "d1b5c4fd-dd6b-4ac5-a48f-5a9cde1a5cb3": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 50,
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "a4f0bb8c-fef4-4685-81c8-8b3e93f784ea": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 50,
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "a9bd2be5-880f-44c3-82ae-9140b109e88a": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 50,
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "449fe62b-5c37-44d7-8892-217d4fc97fdb": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 50,
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "edf07287-3fe1-4baf-8cbe-6abd582bea86": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 50,
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "d1b5c4fd-dd6b-4ac5-a48f-5a9cde1a5cb3",
+        "a4f0bb8c-fef4-4685-81c8-8b3e93f784ea",
+        "a9bd2be5-880f-44c3-82ae-9140b109e88a",
+        "449fe62b-5c37-44d7-8892-217d4fc97fdb",
+        "edf07287-3fe1-4baf-8cbe-6abd582bea86"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "5",
+        "column_spacing": 4,
+        "row_spacing": 8,
+        "column_alignment": "center",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 8,
+        "row_spacing_mobile": 8,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": true,
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "5c38dd1a-8e26-4ca8-b19a-e05cc75031e3": {
+      "type": "image-hero",
+      "blocks": {
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image hero",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-accent-1",
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-heading-1",
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-text-1"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "{{ product.metafields.custom.product_banner_image.value }}",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 10,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "image-hero": {
+      "type": "image-hero",
+      "blocks": {
+        "block-0": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Image hero",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 70,
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "Optional image caption",
+        "show_small_image": true,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "Optional image caption",
+        "show_small_image": true,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "block-0": {
+          "type": "testimonial",
+          "settings": {
+            "product": "de-tan-tan-removal-cream-kojic-milk-500-gm",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "block-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "left",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "block-2": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "small",
+        "quote_font": "body",
+        "background_color": "#f9f9f9",
+        "text_color": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16992534714ee58215": {
+      "type": "apps",
+      "blocks": {
+        "7bff9ae0-1154-41a2-af95-39f28e207145": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "7bff9ae0-1154-41a2-af95-39f28e207145"
+      ],
+      "settings": {
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "fc02a7ce-d15b-4008-a6b7-5d921bb30158": {
+      "type": "product-faq",
+      "settings": {
+        "bg_color": "#9cd4b9",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "heading_text": "FAQ"
+      }
+    },
+    "11a864ef-e9ba-40cc-ba3b-a4d47408775f": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "I have very sensitive skin. Can I use this product?",
+            "text": "<p>Yes, this product is suitable for all skin types. In fact, this cream works particularly well for dry and sensitive skin types, as it is enriched with the soothing properties of Kojic & Milk, leaving skin soft and nourished after every use.<\/p>"
+          }
+        },
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How often should I use this product?",
+            "text": "<p>For visible results, we recommend using this product 2 times a week.<\/p>"
+          }
+        },
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "I have active acne. Can I use this product?",
+            "text": "<p>If you have active acne, use of this product in combination with acne-fighting products in your routine, may aggravate your skin. It is best to wait for active acne to settle before you use this product.<\/p>"
+          }
+        },
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-4": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use this product to de-tan my body as well?",
+            "text": "<p> Yes, our formulation has been designed keeping in mind facial as well as body skin. This product works well to gradually reduce tanning of the body too.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-1",
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-2",
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-3",
+        "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#9cd4b9",
+        "title": "FAQ",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "e4c50415-3a05-41ac-b2b3-979c454240a1": {
+      "type": "image-hero",
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify:\/\/shop_images\/wepik-export-20231130165619xzwn.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "Recommended Products",
+        "subheading": "",
+        "maximum_products": 4,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "3478e600-ef62-4669-a097-ee6ac854c60e": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-1": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscribe to our newsletter",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-2": {
+          "type": "spacer",
+          "settings": {
+            "space": 4
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-newsletter_signup-1": {
+          "type": "newsletter_signup",
+          "settings": {
+            "signup_link_text": "Sign up"
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-heading-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-text-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-2",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-newsletter_signup-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "55da9c0e-0654-4447-9c75-3381d91d9919": {
+      "type": "image-hero",
+      "blocks": {
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image hero",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-accent-1",
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-heading-1",
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-text-1"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify:\/\/shop_images\/good-skin-blog-BG.webp",
+        "image_mobile": "shopify:\/\/shop_images\/good-skin-blog-BG.webp",
+        "focal_point": "center",
+        "mobile_focal_point": "center",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6534dcda-6427-40cd-bdad-426b4a15ce27",
+    "multi-column",
+    "5c38dd1a-8e26-4ca8-b19a-e05cc75031e3",
+    "image-hero",
+    "image-with-text-1",
+    "image-with-text-2",
+    "testimonials",
+    "16992534714ee58215",
+    "fc02a7ce-d15b-4008-a6b7-5d921bb30158",
+    "11a864ef-e9ba-40cc-ba3b-a4d47408775f",
+    "e4c50415-3a05-41ac-b2b3-979c454240a1",
+    "recommendations",
+    "3478e600-ef62-4669-a097-ee6ac854c60e",
+    "55da9c0e-0654-4447-9c75-3381d91d9919"
+  ]
+}

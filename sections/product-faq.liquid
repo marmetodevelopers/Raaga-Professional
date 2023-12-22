@@ -1,0 +1,95 @@
+{{ 'product-faq.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'product-faq.js' | asset_url }}" defer="defer"></script>
+<div class="bg_color-{{ section.id }}">
+  {%- if product.metafields.custom.product_questions != blank -%}
+    <div class="faq-container page-width faq-section-padding">
+      <div class="faq-wrapper flex product-details page-width">
+        <h2 class="title h1 center">{{ section.settings.heading_text }}</h2>
+        {% for question in product.metafields.custom.product_questions.value %}
+          {%- assign index = forloop.index -%}
+          {%- for answer in product.metafields.custom.product_answers.value -%}
+            {%- if forloop.index == index -%}
+              <accordion-tab class="accordion">
+                <details id="details-{{ index }}" class="details-toggle">
+                  <summary class="summary">
+                    <span class="summary__title">
+                      <p class="accordion__title h3">{{ question }}</p>
+                      <span class="minus-arrow">
+                       {% render 'minus-arrow' %}
+                      </span>
+                      <span class="pluse-arrow">
+                      {% render 'pluse-arrow' %}
+                      </span>
+                    </span>
+                  </summary>
+                  <div class="accordion__content rte typeset">
+                    <p>{{ answer }}</p>
+                  </div>
+                </details>
+              </accordion-tab>
+            {%- endif -%}
+          {%- endfor -%}
+        {% endfor %}
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+{% style %}
+  .bg_color-{{ section.id }}{
+   background: {{ section.settings.bg_color }};
+  }
+  .faq-section-padding{
+     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 768px) {
+    .image-with-link-container {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Product faq questions",
+  "settings": [
+    {
+      "type":"color",
+      "id":"bg_color",
+      "label":"Background Color"
+    },
+     {
+    "type": "range",
+    "id": "padding_top",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "Padding top",
+    "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    },
+    {
+      "type":"text",
+      "id":"heading_text",
+      "label":"Heading"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product faq questions"
+    }
+  ]
+}
+{% endschema %}

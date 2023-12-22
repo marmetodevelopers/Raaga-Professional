@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "60af5ef1-8e02-4cee-bdb9-c2e69da6c668": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16969268494591__60af5ef1-8e02-4cee-bdb9-c2e69da6c668-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that premium products don’t have to come with a premium price tag. We keep our plant-based, totally clean formulas affordable so we can reach more people and make a bigger difference.<\/p>",
+            "text_font_class": "fs-body-200"
+          }
+        },
+        "b80751e1-ecc1-4d7c-ad36-d53fbf652743": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All product imagery and descriptions belong to and have been graciously provided by<a href=\"https:\/\/www.omskin.com\/\" target=\"_blank\" title=\"https:\/\/www.omskin.com\">OM Organics<\/a>and are displayed for demonstration purposes only. You can buy their products on their<a href=\"https:\/\/www.omskin.com\/\" target=\"_blank\" title=\"https:\/\/www.omskin.com\">online store<\/a>.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268494591__60af5ef1-8e02-4cee-bdb9-c2e69da6c668-text-1",
+        "b80751e1-ecc1-4d7c-ad36-d53fbf652743"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "ca7d6e87-8f68-4811-9771-57af91c1b316": {
+      "type": "image-hero",
+      "blocks": {
+        "template--16969268494591__ca7d6e87-8f68-4811-9771-57af91c1b316-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--16969268494591__ca7d6e87-8f68-4811-9771-57af91c1b316-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image hero",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16969268494591__ca7d6e87-8f68-4811-9771-57af91c1b316-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268494591__ca7d6e87-8f68-4811-9771-57af91c1b316-accent-1",
+        "template--16969268494591__ca7d6e87-8f68-4811-9771-57af91c1b316-heading-1",
+        "template--16969268494591__ca7d6e87-8f68-4811-9771-57af91c1b316-text-1"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify:\/\/shop_images\/about-still.webp",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "color_overlay": "#000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "About us",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify:\/\/shop_images\/FacialkitMulberry20.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "1661612015fe8eae74-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "1661612015fe8eae74-0",
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify:\/\/shop_images\/PostWaxgelrose.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "627697fe-5bfa-4334-a378-ff0bf8a32144": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16969268494591__627697fe-5bfa-4334-a378-ff0bf8a32144-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Join us on our journey",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "template--16969268494591__627697fe-5bfa-4334-a378-ff0bf8a32144-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "0cd82731-79d1-4c90-8b94-9266991c2944": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        },
+        "9e414fbd-3def-4598-8bf5-9ae07eae3b02": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268494591__627697fe-5bfa-4334-a378-ff0bf8a32144-heading-1",
+        "template--16969268494591__627697fe-5bfa-4334-a378-ff0bf8a32144-text-1",
+        "0cd82731-79d1-4c90-8b94-9266991c2944",
+        "9e414fbd-3def-4598-8bf5-9ae07eae3b02"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "60af5ef1-8e02-4cee-bdb9-c2e69da6c668",
+    "ca7d6e87-8f68-4811-9771-57af91c1b316",
+    "image-with-text-1",
+    "image-with-text-2",
+    "627697fe-5bfa-4334-a378-ff0bf8a32144"
+  ]
+}

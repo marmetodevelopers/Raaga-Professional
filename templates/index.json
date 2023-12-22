@@ -1,0 +1,746 @@
+{
+  "sections": {
+    "6371b6df-e457-432b-a125-007e7b1489c6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16969268429055__6371b6df-e457-432b-a125-007e7b1489c6-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_1.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "flex-start_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "template--16969268429055__6371b6df-e457-432b-a125-007e7b1489c6-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Reveal-Banner_1.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "c8e3fc60-6069-400f-a7d8-1b4a3e5712cf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raaga-web3_1.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "2f9fcd78-8819-4243-950c-535d0d4a300e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blue-azul-slide_87a7dc0a-bcd9-4924-a594-89bf4561ecbf.webp",
+            "image_mobile": "shopify:\/\/shop_images\/blue-azul-mobile-2.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "Slideshow",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268429055__6371b6df-e457-432b-a125-007e7b1489c6-slide-1",
+        "template--16969268429055__6371b6df-e457-432b-a125-007e7b1489c6-slide-2",
+        "c8e3fc60-6069-400f-a7d8-1b4a3e5712cf",
+        "2f9fcd78-8819-4243-950c-535d0d4a300e"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#0b0606",
+        "navigation_color_background": "#ffffff",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    },
+    "16549177944ec2347e": {
+      "type": "rich-text",
+      "blocks": {
+        "1654917794cdc0bc3c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "We're Raaga",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "1654917794cdc0bc3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "1654917794cdc0bc3c-0",
+        "1654917794cdc0bc3c-1"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 650
+      }
+    },
+    "1654878022d8e24a9a": {
+      "type": "grid",
+      "blocks": {
+        "165487802257d72399-2": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 360,
+            "mobile_height": 360,
+            "image": "shopify:\/\/shop_images\/PRA_0811.jpg",
+            "media_fit": "contain",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "<p>Hair care<\/p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify:\/\/collections",
+            "link_text": "Shop Now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#080505",
+            "button_background_color": "#9cd4b9",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 52%, rgba(0, 0, 0, 1) 100%)",
+            "overlay_opacity": 50
+          }
+        },
+        "165487802257d72399-1": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 320,
+            "mobile_height": 360,
+            "image": "shopify:\/\/shop_images\/PRA_0318_1.jpg",
+            "media_fit": "contain",
+            "focal_point": "center",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "<p>Skin Care<\/p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify:\/\/collections\/body-care",
+            "link_text": "Shop Now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#080505",
+            "button_background_color": "#9cd4b9",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 52%, rgba(0, 0, 0, 1) 100%)",
+            "overlay_opacity": 50
+          }
+        },
+        "413845b3-f03e-4a5c-88f7-a671b974ba24": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 320,
+            "mobile_height": 360,
+            "image": "shopify:\/\/shop_images\/PRA_0811.jpg",
+            "media_fit": "contain",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>Body Care<\/p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#080505",
+            "button_background_color": "#9cd4b9",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 49
+          }
+        }
+      },
+      "block_order": [
+        "165487802257d72399-2",
+        "165487802257d72399-1",
+        "413845b3-f03e-4a5c-88f7-a671b974ba24"
+      ],
+      "settings": {
+        "heading": "Shop by Category",
+        "subheading": "",
+        "content_alignment": "center",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 25,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "5042f2a1-2a9e-4cb7-a8c9-4b1f82f7fa30": {
+      "type": "featured-collection-grid",
+      "blocks": {
+        "template--16969268429055__5042f2a1-2a9e-4cb7-a8c9-4b1f82f7fa30-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "featured"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268429055__5042f2a1-2a9e-4cb7-a8c9-4b1f82f7fa30-collection-1"
+      ],
+      "settings": {
+        "heading": "Best sellers",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_collections": 4,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "14329e49-6097-4a8b-b8e9-81e22fbd7a26": {
+      "type": "complete-the-look",
+      "blocks": {
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-1": {
+          "type": "product",
+          "settings": {
+            "product_item": "anti-aging-facial-kit-with-rosemery-oil-61g"
+          }
+        },
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-2": {
+          "type": "product",
+          "settings": {
+            "product_item": "de-tan-tan-removal-cream-kojic-milk-500-gm"
+          }
+        },
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-3": {
+          "type": "product",
+          "settings": {
+            "product_item": "raaga-professional-detan-advanced-cream-suitable-for-all-type-of-skin-black-500-g"
+          }
+        },
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-4": {
+          "type": "product",
+          "settings": {
+            "product_item": "express-facial-kit-1-1-normal-to-oily-35gm-green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-1",
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-2",
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-3",
+        "template--16969268429055__14329e49-6097-4a8b-b8e9-81e22fbd7a26-product-4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Anti_ageing_0f6166ba-d9ad-44a4-a8df-f486a36003a8.jpg",
+        "video_url": "",
+        "video_loop": true,
+        "video_controls": false,
+        "image_position": "left",
+        "aspect_ratio": "portrait_alt",
+        "heading": "Complete the look",
+        "subheading": "<p>Use this section to highlight different products within an image<\/p>",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "product_image_size": "large",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16558445044f80743b": {
+      "type": "image-hero",
+      "blocks": {
+        "d0cd2366-7930-4809-80d7-2b38d2d4fb07": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Why Choose Us",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "8a49de45-4784-4f5d-adcf-b87e81e76548": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Trusted By 50000 many beauticians, or 1000 salons trust us",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "d525a297-b0ac-4079-a90c-68d26f07aae7": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        },
+        "15c58a65-cec7-4639-8936-8e3534462aff": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "d0cd2366-7930-4809-80d7-2b38d2d4fb07",
+        "8a49de45-4784-4f5d-adcf-b87e81e76548",
+        "d525a297-b0ac-4079-a90c-68d26f07aae7",
+        "15c58a65-cec7-4639-8936-8e3534462aff"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 50,
+        "image": "shopify:\/\/shop_images\/shop-the-look-2_1.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 51,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "1655747757d7226f15": {
+      "type": "grid",
+      "blocks": {
+        "e866e078-81cd-4f2b-8678-817de7dc830a": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/vit_c.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Brighten",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "\/",
+            "link_text": "Shop now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#f1fea1",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "c832af30-0b0e-4968-9284-ab8633c9a7c3": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 300,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/mg.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Hydrate",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "\/",
+            "link_text": "Shop now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#f1fea1",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "c51c0355-4ad0-4933-b13d-f827c724bcf5": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 300,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/PRA_0654.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Cleanse",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "\/",
+            "link_text": "Shop now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#f1fea1",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "c49fee52-014f-4275-968c-dc288d31fd2b": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/PRA_0246_2.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Age Rewind",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "\/",
+            "link_text": "Shop now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#f1fea1",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "765a5e2e-93df-44f3-aa92-3c26e95174c2": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 300,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/Prewaxgellemon.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Hydrate",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "\/",
+            "link_text": "shop now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#f1fea1",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "48a4e426-4325-412e-a437-c11aa5b4edf2": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 300,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/PRA_0773.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Acne Prevention",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "\/",
+            "link_text": "Shop  now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#f1fea1",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "e866e078-81cd-4f2b-8678-817de7dc830a",
+        "c832af30-0b0e-4968-9284-ab8633c9a7c3",
+        "c51c0355-4ad0-4933-b13d-f827c724bcf5",
+        "c49fee52-014f-4275-968c-dc288d31fd2b",
+        "765a5e2e-93df-44f3-aa92-3c26e95174c2",
+        "48a4e426-4325-412e-a437-c11aa5b4edf2"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Skin concern",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 24,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16558561940a4fe50f": {
+      "type": "testimonials",
+      "blocks": {
+        "1655856194e7b43695-0": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "image": "shopify:\/\/shop_images\/Testimonial_01.jpg",
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "1655856194e7b43695-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "image": "shopify:\/\/shop_images\/Testimonial_02.jpg",
+            "aspect_ratio": "natural",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 4.5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "1655856194e7b43695-0",
+        "1655856194e7b43695-1"
+      ],
+      "settings": {
+        "image_size": "small",
+        "quote_font": "heading",
+        "background_color": "#ffffff",
+        "text_color": "#031612",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "465a1d69-b8f6-4245-9ab6-fe5ec82d6a6d": {
+      "type": "promotion-bar",
+      "disabled": true,
+      "settings": {
+        "min_height": 60,
+        "min_height_mobile": 60,
+        "heading": "Announce your sale",
+        "text": "<p>Highlight sale campaigns, discounts, and promotions.<\/p>",
+        "link": "shopify:\/\/collections",
+        "link_text": "Button",
+        "button_style": "btn--secondary",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "background_color": "#c51c26",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "8d0ce6b8-e88a-41a9-8c7f-b9406494671d": {
+      "type": "multi-column",
+      "settings": {
+        "title": "Pure, plant-based, totally clean Skincare",
+        "subheading": "",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 4,
+        "row_spacing": 4,
+        "column_alignment": "left",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 4,
+        "row_spacing_mobile": 4,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "#031612",
+        "text_color": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "6371b6df-e457-432b-a125-007e7b1489c6",
+    "16549177944ec2347e",
+    "1654878022d8e24a9a",
+    "5042f2a1-2a9e-4cb7-a8c9-4b1f82f7fa30",
+    "14329e49-6097-4a8b-b8e9-81e22fbd7a26",
+    "16558445044f80743b",
+    "1655747757d7226f15",
+    "16558561940a4fe50f",
+    "465a1d69-b8f6-4245-9ab6-fe5ec82d6a6d",
+    "8d0ce6b8-e88a-41a9-8c7f-b9406494671d"
+  ]
+}
