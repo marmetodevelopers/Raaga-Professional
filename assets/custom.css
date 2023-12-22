@@ -1,1 +1,92 @@
+.product-form__item.product-form__item--submit.product-form__item--payment-button.product-form__item--no-variants,
+.product-form__item.product-form__item--submit.product-form__item--payment-button {
+  display: flex;
+  gap: 20px;
+}
 
+button.product-form__cart-submit.btn.btn--medium.btn--full.btn--secondary,
+.shopify-payment-button {
+  width: 50%;
+}
+.shopify-payment-button
+  button.shopify-payment-button__button.shopify-payment-button__button--unbranded,
+.accordion.product_descrption_accordians {
+  margin-top: 0;
+}
+.accordion.description_field,
+.accordion.product_descrption_accordians {
+  margin-bottom: 0;
+}
+html.do-anim .animation.animation--grid.is-visible .grid-item {
+  --overlay-background-gradient: none !important;
+}
+html.do-anim .animation.animation--grid .grid-item__inner {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+header[data-navigation-position="left"][data-logo-position="left"]
+  .header__row.header__row-desktop.lower
+  .header__row-segment.left
+  .header__logo {
+  margin: 0;
+}
+.faq-wrapper.flex.product-details.page-width h2.title.h1.center {
+  font-family: Cardo, serif;
+}
+a.grid-item__inner.shop_category_collection {
+  height: auto;
+}
+a.grid-item__inner.shop_category_collection .grid-item__text-container-wrapper {
+  padding: 5px;
+}
+a.grid-item__inner.shop_category_collection
+  .grid-item__button.section-blocks__button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.metafield_values.meta_value_less {
+  display: none;
+}
+.featured-collection-grid__product.carousel_slide.swiper-slide {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+h4.ff-body.product-item__product-title.fs-product-card-title {
+  width: 95%;
+  margin: auto;
+}
+
+h4.ff-body.product-item__product-title.fs-product-card-title {
+  overflow: hidden;
+  height: 3em;
+  width: 100%;
+}
+
+h4.ff-body.product-item__product-title.fs-product-card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  width: 100%;
+}
+
+@media only screen and (min-width: 750px) {
+  a.grid-item__inner.shop_category_collection p {
+    font-size: 24px;
+  }
+  .header__row .header__row-segment.right {
+    gap: 15px;
+  }
+  .header__links.header__links-primary {
+    margin-left: 30px;
+  }
+  .fs-heading-3-base-ns {
+    font-size: 28px;
+  }
+  .fs-product-card-title {
+    min-height: 73px;
+  }
+  html.do-anim .animation.is-visible .animation--section-introduction > * {
+    text-align: center;
+  }
+}

@@ -13,9 +13,11 @@
             "collapse_on_mobile": false,
             "title": "",
             "show_title_on_desktop": false,
+            "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
             "image_max_width": 200,
             "image_placement": "above_text",
-            "show_social_icons": false
+            "show_social_icons": false,
+            "enable_follow_on_shop": false
           }
         },
         "footer-1": {
@@ -31,7 +33,8 @@
             "desktop_padding": 4,
             "collapse_on_mobile": true,
             "title": "Company",
-            "show_title_on_desktop": true
+            "show_title_on_desktop": true,
+            "link_list": "footer"
           }
         },
         "footer-3": {
@@ -41,7 +44,8 @@
             "desktop_padding": 4,
             "collapse_on_mobile": true,
             "title": "Links",
-            "show_title_on_desktop": true
+            "show_title_on_desktop": true,
+            "link_list": "new-footer-menu"
           }
         },
         "footer-4": {
@@ -50,9 +54,11 @@
             "desktop_width": 30,
             "desktop_padding": 0,
             "collapse_on_mobile": false,
+            "title": "Newsletter",
             "show_title_on_desktop": true,
             "text": "",
-            "show_social_icons": true
+            "show_social_icons": true,
+            "enable_follow_on_shop": true
           }
         }
       },

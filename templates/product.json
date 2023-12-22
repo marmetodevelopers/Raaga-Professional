@@ -29,7 +29,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><strong>Significantly lightens tan<\/strong>: specially formulated for sun-tanned skin, the kojic in this cream works to gradually lighten the tan, giving you a fresher, more even-toned complexion.<br\/><br\/><strong>Boosts cell regeneration<\/strong>: this cream encourages the skin's outermost layer to continuously repair and replace itself, for long-lasting radiance.<br\/><br\/><strong>Gently removes dead skin cells<\/strong>: enriched with the purifying properties of kojic, this cream removes dead skin cells, promoting a healthy glow.<br\/><br\/><strong>Enhances skin hydration<\/strong>: the nourishing properties of milk boost skin's moisture levels and replenish lost moisture, for soft and supple skin. <\/p>",
+            "text": "<p><strong>Significantly lightens tan<\/strong>: specially formulated for sun-tanned skin, the kojic in this cream works to gradually lighten the tan, giving you a fresher, more even-toned complexion. {{ shop.brand.short_description }}<\/p>",
             "column_placement": "right"
           }
         },
@@ -112,12 +112,13 @@
         },
         "product_callouts-2": {
           "type": "product_callouts",
+          "disabled": true,
           "settings": {
             "title": "",
-            "add_box": false,
+            "add_box": true,
             "add_dividers": true,
-            "icon_1": "measuring-tape",
-            "text_1": "<p><strong>Suitable for: <\/strong><\/p><p>All skin types. <\/p><p>Most effective on sensitive skin & dry skin <\/p><p>Nourishing properties.<\/p>",
+            "icon_1": "none",
+            "text_1": "<p><strong>Suitable for: <\/strong><\/p><ul><li>All skin types. <\/li><li>Most effective on sensitive skin & dry skin <\/li><li>Nourishing properties.<\/li><\/ul>",
             "icon_2": "washing-symbol",
             "text_2": "",
             "icon_3": "none",
@@ -135,12 +136,36 @@
         "share": {
           "type": "share",
           "settings": {
+            "share_text": ""
+          }
+        },
+        "1bb7dd32-7320-4fb6-bd8d-27ecd82501dd": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "Key Benefits",
+            "content": "{{ product.metafields.custom.key_benefits | metafield_tag }}",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "3d4837fb-caea-4a42-ab62-456347c24e47": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "How to Use",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
+            "page_for_content": "",
+            "custom_liquid": ""
           }
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
-            "title": "How to Use",
+            "title": "Know More",
             "text_font_class": "fs-body-100",
             "column_placement": "left",
             "display_as_collapsible_row": true,
@@ -149,10 +174,11 @@
         },
         "accordion-1": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "expand_by_default": false,
             "column_placement": "left",
-            "heading": "Ingredients",
+            "heading": "Key Benefits",
             "content": "<p><strong>Kojic<\/strong>: this natural skin lightening agent works to gently undo tan and other forms of sun damage to the skin, by slowing down the production of melanin, the substance that causes skin darkening.<br\/>                          <br\/><strong>Milk<\/strong>: the nourishing properties of milk, soften and soothe, working well in combination with kojic, to reveal brighter, healthier skin.      <\/p>",
             "page_for_content": "",
             "custom_liquid": ""
@@ -164,8 +190,8 @@
           "settings": {
             "expand_by_default": false,
             "column_placement": "left",
-            "heading": "Collapsible row",
-            "content": "<p>Add your collapsible row content here.<\/p>",
+            "heading": "How to Use",
+            "content": "<p><strong>Boosts cell regeneration<\/strong>: this cream encourages the skin's outermost layer to continuously repair and replace itself, for long-lasting radiance.<br\/><br\/><strong>Gently removes dead skin cells<\/strong>: enriched with the purifying properties of kojic, this cream removes dead skin cells, promoting a healthy glow.<br\/><br\/><strong>Enhances skin hydration<\/strong>: the nourishing properties of milk boost skin's moisture levels and replenish lost moisture, for soft and supple skin.<\/p>",
             "page_for_content": "",
             "custom_liquid": ""
           }
@@ -190,6 +216,18 @@
             "text": "<p>Add some text to tell customers more about your product.<\/p>",
             "column_placement": "left"
           }
+        },
+        "9de4af6a-f032-4b08-8854-f1a886887607": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "Collapsible row",
+            "content": "<p>Add your collapsible row content here.<\/p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -204,11 +242,14 @@
         "product_callouts-1",
         "product_callouts-2",
         "share",
+        "1bb7dd32-7320-4fb6-bd8d-27ecd82501dd",
+        "3d4837fb-caea-4a42-ab62-456347c24e47",
         "description",
         "accordion-1",
         "accordion-2",
         "accordion-3",
-        "text"
+        "text",
+        "9de4af6a-f032-4b08-8854-f1a886887607"
       ],
       "custom_css": [
         ".product__policies {display: none;}"
@@ -216,7 +257,7 @@
       "settings": {
         "enable_sticky_product_details": true,
         "show_breadcrumbs": true,
-        "show_navigation_buttons": false,
+        "show_navigation_buttons": true,
         "gallery_style": "thumbnails",
         "gallery_style_mobile": "carousel",
         "gallery_size": "medium",
@@ -226,6 +267,14 @@
         "image_aspect_ratio": "square",
         "enable_gift_card_recipient": true,
         "enable_animation": true
+      }
+    },
+    "6534dcda-6427-40cd-bdad-426b4a15ce27": {
+      "type": "main-product-metafield-icon",
+      "settings": {
+        "heading": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multi-column": {
@@ -324,6 +373,7 @@
         "449fe62b-5c37-44d7-8892-217d4fc97fdb",
         "edf07287-3fe1-4baf-8cbe-6abd582bea86"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "subheading": "",
@@ -335,8 +385,8 @@
         "column_spacing": 4,
         "row_spacing": 8,
         "column_alignment": "center",
-        "columns_mobile": "1",
-        "column_spacing_mobile": 20,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 8,
         "row_spacing_mobile": 8,
         "column_alignment_mobile": "left",
         "background_behind_columns": true,
@@ -347,6 +397,58 @@
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "5c38dd1a-8e26-4ca8-b19a-e05cc75031e3": {
+      "type": "image-hero",
+      "blocks": {
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image hero",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-accent-1",
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-heading-1",
+        "template--16969268887807__5c38dd1a-8e26-4ca8-b19a-e05cc75031e3-text-1"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "{{ product.metafields.custom.product_banner_image.value }}",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 10,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
       }
     },
     "image-hero": {
@@ -528,6 +630,7 @@
         "block-1",
         "block-2"
       ],
+      "disabled": true,
       "settings": {
         "image_size": "small",
         "quote_font": "body",
@@ -555,6 +658,15 @@
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "fc02a7ce-d15b-4008-a6b7-5d921bb30158": {
+      "type": "product-faq",
+      "settings": {
+        "bg_color": "#9cd4b9",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "heading_text": "FAQ"
       }
     },
     "11a864ef-e9ba-40cc-ba3b-a4d47408775f": {
@@ -603,7 +715,9 @@
         "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-3",
         "template--16784680517887__11a864ef-e9ba-40cc-ba3b-a4d47408775f-item-4"
       ],
+      "disabled": true,
       "settings": {
+        "bg_color": "#9cd4b9",
         "title": "FAQ",
         "heading_font_class": "fs-heading-3-base",
         "subheading": "",
@@ -617,29 +731,181 @@
         "custom_content_width": 700
       }
     },
+    "e4c50415-3a05-41ac-b2b3-979c454240a1": {
+      "type": "image-hero",
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify:\/\/shop_images\/wepik-export-20231130165619xzwn.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "recommendations": {
       "type": "recommended-products",
       "settings": {
         "title": "Recommended Products",
         "subheading": "",
-        "maximum_products": 8,
+        "maximum_products": 4,
         "columns": "4",
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "3478e600-ef62-4669-a097-ee6ac854c60e": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-1": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscribe to our newsletter",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-2": {
+          "type": "spacer",
+          "settings": {
+            "space": 4
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-newsletter_signup-1": {
+          "type": "newsletter_signup",
+          "settings": {
+            "signup_link_text": "Sign up"
+          }
+        },
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-heading-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-text-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-2",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-newsletter_signup-1",
+        "template--16969268887807__3478e600-ef62-4669-a097-ee6ac854c60e-spacer-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "55da9c0e-0654-4447-9c75-3381d91d9919": {
+      "type": "image-hero",
+      "blocks": {
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image hero",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-accent-1",
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-heading-1",
+        "template--16969268887807__55da9c0e-0654-4447-9c75-3381d91d9919-text-1"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify:\/\/shop_images\/good-skin-blog-BG.webp",
+        "image_mobile": "shopify:\/\/shop_images\/good-skin-blog-BG.webp",
+        "focal_point": "center",
+        "mobile_focal_point": "center",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
     }
   },
   "order": [
     "main",
+    "6534dcda-6427-40cd-bdad-426b4a15ce27",
     "multi-column",
+    "5c38dd1a-8e26-4ca8-b19a-e05cc75031e3",
     "image-hero",
     "image-with-text-1",
     "image-with-text-2",
     "testimonials",
     "16992534714ee58215",
+    "fc02a7ce-d15b-4008-a6b7-5d921bb30158",
     "11a864ef-e9ba-40cc-ba3b-a4d47408775f",
-    "recommendations"
+    "e4c50415-3a05-41ac-b2b3-979c454240a1",
+    "recommendations",
+    "3478e600-ef62-4669-a097-ee6ac854c60e",
+    "55da9c0e-0654-4447-9c75-3381d91d9919"
   ]
 }
