@@ -9,55 +9,6 @@
         "custom_content_width": 700
       }
     },
-    "78d1da68-7b50-4085-817a-4b2b51d2aa28": {
-      "type": "image-hero",
-      "blocks": {
-        "template--16969268592895__78d1da68-7b50-4085-817a-4b2b51d2aa28-accent-1": {
-          "type": "accent",
-          "settings": {
-            "accent": "Accent"
-          }
-        },
-        "template--16969268592895__78d1da68-7b50-4085-817a-4b2b51d2aa28-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Image hero",
-            "heading_font_class": "fs-heading-display-2"
-          }
-        },
-        "template--16969268592895__78d1da68-7b50-4085-817a-4b2b51d2aa28-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "template--16969268592895__78d1da68-7b50-4085-817a-4b2b51d2aa28-accent-1",
-        "template--16969268592895__78d1da68-7b50-4085-817a-4b2b51d2aa28-heading-1",
-        "template--16969268592895__78d1da68-7b50-4085-817a-4b2b51d2aa28-text-1"
-      ],
-      "settings": {
-        "image_aspect": "custom",
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "image": "shopify:\/\/shop_images\/SPF30_2.jpg",
-        "focal_point": "image_presentation",
-        "mobile_focal_point": "image_presentation",
-        "media_link": "",
-        "text_position": "center_center",
-        "text_position_mobile": "center_center",
-        "text_color": "#FFFFFF",
-        "button_background_color": "#FFFFFF",
-        "button_text_color": "#000000",
-        "color_overlay": "#000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 40,
-        "enable_animation": true,
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
     "rich-text-1": {
       "type": "rich-text",
       "blocks": {
@@ -77,7 +28,6 @@
         "block-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -141,36 +91,28 @@
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-1": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-2": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-3": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         }
       },
@@ -183,8 +125,6 @@
       "settings": {
         "title": "",
         "heading_font_class": "fs-heading-3-base",
-        "subheading": "",
-        "subheading_font_class": "fs-heading-5-base",
         "heading_alignment": "left",
         "item_heading_font": "body",
         "enable_animation": false,
@@ -232,36 +172,28 @@
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-1": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-2": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-3": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         }
       },
@@ -274,8 +206,6 @@
       "settings": {
         "title": "",
         "heading_font_class": "fs-heading-3-base",
-        "subheading": "",
-        "subheading_font_class": "fs-heading-5-base",
         "heading_alignment": "left",
         "item_heading_font": "body",
         "enable_animation": false,
@@ -323,36 +253,28 @@
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-1": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-2": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         },
         "block-3": {
           "type": "item",
           "settings": {
             "expand_by_default": false,
-            "icon": "none",
-            "title": "This is an example of a question that a customer might ask",
-            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "icon": "none"
           }
         }
       },
@@ -365,8 +287,6 @@
       "settings": {
         "title": "",
         "heading_font_class": "fs-heading-3-base",
-        "subheading": "",
-        "subheading_font_class": "fs-heading-5-base",
         "heading_alignment": "left",
         "item_heading_font": "body",
         "enable_animation": false,
@@ -396,7 +316,6 @@
         "block-2": {
           "type": "button",
           "settings": {
-            "link": "",
             "link_text": "Contact us",
             "button_style": "btn--primary"
           }
@@ -426,7 +345,6 @@
   },
   "order": [
     "main",
-    "78d1da68-7b50-4085-817a-4b2b51d2aa28",
     "rich-text-1",
     "rich-text-2",
     "collapsible-row-list-1",

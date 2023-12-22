@@ -449,7 +449,14 @@
           {{ 'products.product.loader_label' | t }}
         </p>
 
-      
+        {% comment -%}
+          Shell for Shopify product review accordion hidden by default
+        {% endcomment -%}
+        {% liquid
+          assign review_title = 'products.product.reviews' | t
+
+          render 'product-block-accordion', classes: 'product-reviews hidden', heading: review_title, small_text: true
+        -%}
       </div>
     </div>
   </div>
@@ -1398,11 +1405,6 @@
       "name": "t:sections.main_product_overview.blocks.share.name",
       "limit": 1,
       "settings": [
-        {
-          "type":"text",
-          "id":"share_text",
-          "label":"share"
-        },
         {
           "type": "paragraph",
           "content": "t:sections.main_product_overview.blocks.share.settings.paragraph__1.content"

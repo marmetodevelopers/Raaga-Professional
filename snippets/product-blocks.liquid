@@ -1,21 +1,19 @@
 {%- comment -%}
-  Pass in:
-  - blocks: section's blocks
-  - prod: product object
-  - featured_media
-  - current_variant
-  - is_quick: boolean to indicate if we are rendering quick product or not. Some sections omitted if true
-  - column (optional): "left" or "right" to filter by "column_placement"
+Pass in:
+- blocks: section's blocks
+- prod: product object
+- featured_media
+- current_variant
+- is_quick: boolean to indicate if we are rendering quick product or not. Some sections omitted if true
+- column (optional): "left" or "right" to filter by "column_placement"
+
+
 {%- endcomment -%}
 {%- capture product_url -%}{{ shop.url | append: prod.url }}{%- endcapture -%}
 
 {%- for block in blocks -%}
   {% assign renderBlock = false %}
-  {% if column == block.settings.column_placement
-    or column == 'right'
-    and block.settings.column_placement == blank
-    or column == blank
-  %}
+  {% if column == block.settings.column_placement or column == "right" and block.settings.column_placement == blank or column == blank %}
     {% assign renderBlock = true %}
   {% endif %}
 
@@ -26,8 +24,7 @@
 
       {%- when 'product_header' -%}
         {% if is_quick %}<div class="quick-product--header-block-wrap">{% endif %}
-        {%-
-          render 'product-block-header' with
+        {%- render 'product-block-header' with
           product: prod,
           block: block,
           block_settings: block.settings,
@@ -37,11 +34,7 @@
         -%}
         {% if is_quick %}</div>{% endif %}
       {%- when 'spacer' -%}
-        <div
-          class="product-block-spacer product__block product__block--medium"
-          style="height: {{ block.settings.space }}px"
-          {{ block.shopify_attributes }}
-        ></div>
+        <div class="product-block-spacer product__block product__block--medium" style="height: {{ block.settings.space }}px" {{ block.shopify_attributes }}></div>
 
       {%- when 'variant_picker' -%}
         {%- if prod != blank -%}
@@ -52,8 +45,7 @@
               assign show_siblings = false
             endif
           -%}
-          {%-
-            render 'product-block-variant-picker' with
+          {%- render 'product-block-variant-picker' with
             product: prod,
             block: block,
             block_settings: block.settings,
@@ -64,25 +56,22 @@
 
       {%- when 'quantity_selector' -%}
         {%- if prod != blank -%}
-          {%-
-            render 'product-block-quantity-selector' with
+          {%- render 'product-block-quantity-selector' with
             product: prod,
             block: block,
             block_settings: block.settings,
           -%}
         {%- endif -%}
 
-      {%- when 'custom_option' -%}
-        {%-
-          render 'product-block-custom-option',
+      {%- when 'custom_option'-%}
+        {%- render 'product-block-custom-option',
           block: block,
           field_type: block.settings.field_type,
         -%}
 
       {%- when 'buy_buttons' -%}
         {%- if prod != blank -%}
-          {%-
-            render 'product-block-buy-buttons' with
+          {%- render 'product-block-buy-buttons' with
             product: prod,
             block: block,
             blocks: blocks,
@@ -107,8 +96,7 @@
         {%- endif -%}
 
       {%- when 'description' -%}
-        {%-
-          render 'product-block-description' with
+        {%- render 'product-block-description' with
           product: prod,
           block: block,
           block_settings: block.settings,
@@ -121,119 +109,35 @@
         {%- render 'product-block-callouts-mini' with block: block, block_settings: block.settings %}
 
       {%- when 'text' -%}
-        {%
-          render 'product-block-text' with
+        {% render 'product-block-text' with
           content: block.settings.text,
           block_settings: block.settings,
           block: block,
         %}
 
       {%- when 'share' -%}
-        <div class="main_content_alignment">
-          {%- if prod != blank -%}
-            {%- liquid
-              assign share_alignment = 'left-below'
+        {%- if prod != blank -%}
+          {%- liquid
+            assign share_alignment = "left-below"
 
-              if is_quick or is_featured
-                assign share_alignment = 'left-above'
-              endif
-            -%}
-
-            <div
-              class="product-block-social-share product__block product__block--medium"
-              {{ block.shopify_attributes }}
-            >
-              {% render 'social-share',
-                url: product_url,
-                title: product.title,
-                image: product.featured_image,
-                alignment: share_alignment
-              %}
-            </div>
-          {%- endif -%}
-
-          <div class="product_description_tab">
-            {%- liquid
-              assign open = false
-              if block_settings.expand_by_default or expand_by_default
-                assign open = true
-              endif
-
-              unless label_font
-                assign label_font = 'ff-heading'
-              endunless
-              unless label_font_size
-                assign label_font_size = 'fs-heading-5-base'
-              endunless
-
-              if block_settings.page_for_content
-                assign content_page = pages[block_settings.page_for_content]
-
-                if content_page and content_page != blank
-                  assign content = content_page.content
-                endif
-              endif
-
-              if block_settings.custom_liquid != blank
-                assign content = block_settings.custom_liquid
-              endif
-            -%}
-            {% unless left_side_blocks == blank -%}
-              <div class="left-side-blocks for-desktop">
-                {{ left_side_blocks }}
-              </div>
-            {%- endunless %}
-            <div class="accordion {{ classes }} description_field" {{ block.shopify_attributes }}>
-              {{ page_for_content }}
-              <div
-                class="accordion__inner"
-                data-index="{{ forloop.index0 }}"
-                data-open="{% if open %}true{% else %}false{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                <button
-                  class="accordion__label"
-                  aria-expanded="{% if open %}true{% else %}false{% endif %}"
-                  aria-controls="{{ block.id }}"
-                >
-                  <h3 class="{{ label_font }} {{ label_font_size }}">Know More</h3>
-                  <div class="accordion__label-icons">
-                    {% render 'icon', icon: 'plus' %}
-                    {% render 'icon', icon: 'minus' %}
-                  </div>
-                </button>
-                <div
-                  class="accordion__content fs-body-100{% unless disable_rte %} rte non-page-rte{% endunless %}"
-                  aria-hidden="{% if open %}false{% else %}true{% endif %}"
-                  {% unless open %}
-                    style="display: none"
-                  {% endunless %}
-                  id="accordion-content-{{ block.id }}"
-                >
-                  {{ product.metafields.custom.know_more_ | metafield_tag }}
-                </div>
-              </div>
-            </div>
-          </div>
-          {% comment -%}
-            Shell for Shopify product review accordion hidden by default
-          {% endcomment -%}
-          {% unless left_side_blocks == blank -%}
-            <div class="">
-              {{ left_side_blocks }}
-            </div>
-          {%- endunless %}
-          {% liquid
-            assign review_title = 'products.product.reviews' | t
-
-            render 'product-block-accordion', classes: 'product-reviews hidden', heading: review_title, small_text: true
+            if is_quick or is_featured
+              assign share_alignment = "left-above"
+            endif
           -%}
-        </div>
+
+          <div class="product-block-social-share product__block product__block--medium" {{ block.shopify_attributes }}>
+            {% render 'social-share',
+              url: product_url,
+              title: product.title,
+              image: product.featured_image,
+              alignment: share_alignment
+            %}
+          </div>
+        {%- endif -%}
 
       {%- when 'inventory-counter' -%}
         {%- if prod != blank -%}
-          {%-
-            render 'inventory-counter' with
+          {%- render 'inventory-counter' with
             product: prod,
             block: block,
             block_settings: block.settings,
@@ -242,8 +146,7 @@
         {%- endif -%}
 
       {%- when 'accordion' -%}
-        {%-
-          render 'product-block-accordion' with
+        {%- render 'product-block-accordion' with
           block: block,
           block_settings: block.settings
           heading: block.settings.heading,
@@ -261,8 +164,7 @@
         {%- assign popup_modal_page = pages[block.settings.popup_page] -%}
 
         {%- if block.settings.popup_text != blank and popup_modal_page.content != blank -%}
-          {%
-            render 'product-block-information-popup' with
+          {% render 'product-block-information-popup' with
             block: block,
             popup_page_target: block.settings.popup_page,
             popup_page: popup_modal_page,
@@ -295,12 +197,10 @@
         </div>
 
       {%- when 'secure_payment' -%}
-        {%-
-          render 'product-block-secure-payment',
+        {%- render 'product-block-secure-payment',
           product: prod,
           block: block,
-          block_settings: block.settings,
-        -%}
+          block_settings: block.settings, -%}
     {%- endcase -%}
   {% endif %}
 {%- endfor -%}

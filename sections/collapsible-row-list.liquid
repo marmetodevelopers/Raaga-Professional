@@ -8,7 +8,6 @@
       animation
       animation--collapsible-row-list
     {% endif %}
-    bg--{{ section.id }}
   "
   data-section-id="{{ section.id }}"
   data-section-type="collapsible-row-list"
@@ -43,12 +42,6 @@
   </div>
 </div>
 
-{% style %}
-.bg--{{ section.id }}{
-  background: {{ section.settings.bg_color }}
-}
-{% endstyle %}
-
 {% schema %}
 {
   "name": "t:sections.collapsible_row_list.name",
@@ -57,11 +50,6 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
-    {
-      "type":"color",
-      "id":"bg_color",
-      "label":"backgorund"
-    },
     {
       "type": "text",
       "id": "title",

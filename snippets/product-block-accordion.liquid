@@ -23,12 +23,7 @@
     assign content = block_settings.custom_liquid
   endif
 -%}
-    {% unless left_side_blocks == blank -%}
-        <div class="left-side-blocks for-desktop">
-          {{ left_side_blocks }}
-        </div>
-      {%- endunless %}
-<div class="accordion {{ classes }} product_descrption_accordians" {{ block.shopify_attributes }}>
+<div class="accordion {{ classes }}" {{ block.shopify_attributes }}>
   {{ page_for_content }}
   <div
     class="accordion__inner"

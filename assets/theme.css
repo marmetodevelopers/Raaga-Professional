@@ -13574,7 +13574,7 @@ body.header-transparent
 .grid-item .grid-item__image,
   .grid-item .image__img{
     display:block;
-    /* position:absolute; */
+    position:absolute;
     -o-object-fit:cover;
        object-fit:cover;
     -o-object-fit:var(--media-fit, cover);
@@ -13603,7 +13603,7 @@ body.header-transparent
   display:block;
   width:100%;
   height:100%;
-  /* position:relative; */
+  position:relative;
   overflow:hidden;
   background-color:var(--background-color);
 }

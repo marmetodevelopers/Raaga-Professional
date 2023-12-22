@@ -61,11 +61,9 @@
     {% render 'theme-setup' %}
     {% render 'theme-setting-vars' %}
     {%- render 'theme-globals' -%}
-   {{ 'custom.css' | asset_url | stylesheet_tag }}
-    
+
     {{ content_for_header }}
-    {% render 'rapid-search-settings' %}
-</head>
+  </head>
 
   <body class="template-{{ request.page_type | handle }}">
     <div class="page">
