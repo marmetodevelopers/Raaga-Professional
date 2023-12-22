@@ -62,6 +62,7 @@ summary {
 .details-toggle[open] .minus-arrow {
   display: none;
 }
+
 @media only screen and (max-width: 749px) {
   p.accordion__title.h3 {
     font-size: 18px;
@@ -70,3 +71,5 @@ summary {
     margin-top: 20px;
   }
 }
+
+

@@ -8,7 +8,6 @@
   - column (optional): "left" or "right" to filter by "column_placement"
 {%- endcomment -%}
 {%- capture product_url -%}{{ shop.url | append: prod.url }}{%- endcapture -%}
-
 {%- for block in blocks -%}
   {% assign renderBlock = false %}
   {% if column == block.settings.column_placement

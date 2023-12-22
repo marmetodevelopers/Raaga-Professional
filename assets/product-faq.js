@@ -1,3 +1,4 @@
+
 document.querySelectorAll(".details-toggle").forEach(function(details) {
     const pluseArrow = details.querySelector(".pluse-arrow");
     const minusArrow = details.querySelector(".minus-arrow");
