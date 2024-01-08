@@ -435,7 +435,7 @@
         "image_aspect": "original",
         "desktop_height": 100,
         "mobile_height": 100,
-        "image": "{{ product.metafields.custom.product_banner_image.value }}",
+        "image": "shopify:\/\/shop_images\/toner.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
         "media_link": "",
